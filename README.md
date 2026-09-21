@@ -32,5 +32,5 @@ quilometragem, manutenção e histórico de aluguéis.
 - Guilherme Pereira Bacelar
 - Henrique Barbosa Ferrão
 - Mateus Oliveira de Araujo
--
--
+- Rodolfo Gonçalves
+- Mateus Rodrigues França de Almeida
