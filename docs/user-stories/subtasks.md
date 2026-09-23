@@ -2,7 +2,7 @@
 
 ## US01 — Cadastrar veículo
 
-**Responsável:** Guilherme Pereira Bacelar
+**Responsável:** Mateus Oliveira de Araujo
 
 ### Subtarefas
 
@@ -21,7 +21,7 @@
 
 ## US02 — Consultar e organizar veículos
 
-**Responsável:** Guilherme Pereira Bacelar
+**Responsável:** Mateus Oliveira de Araujo
 
 ### Subtarefas
 
@@ -40,7 +40,7 @@
 
 ## US03 — Consultar disponibilidade
 
-**Responsável:** Henrique Barbosa Ferrão
+**Responsável:** Guilherme Pereira Bacelar
 
 ### Subtarefas
 
@@ -59,7 +59,7 @@
 
 ## US04 — Realizar reserva
 
-**Responsável:** Henrique Barbosa Ferrão
+**Responsável:** Guilherme Pereira Bacelar
 
 ### Subtarefas
 
@@ -79,7 +79,7 @@
 
 ## US05 — Registrar retirada do veículo
 
-**Responsável:** Rodolfo Gonçalves
+**Responsável:** Mateus Rodrigues França de Almeida
 
 ### Subtarefas
 
@@ -98,7 +98,7 @@
 
 ## US06 — Registrar devolução do veículo
 
-**Responsável:** Rodolfo Gonçalves
+**Responsável:** Mateus Rodrigues França de Almeida
 
 ### Subtarefas
 
@@ -117,7 +117,7 @@
 
 ## US07 — Bloquear veículo para manutenção
 
-**Responsável:** Mateus Oliveira de Araujo
+**Responsável:** Rodolfo Gonçalves
 
 ### Subtarefas
 
@@ -136,7 +136,7 @@
 
 ## US08 — Registrar necessidade de manutenção
 
-**Responsável:** Mateus Oliveira de Araujo
+**Responsável:** Rodolfo Gonçalves
 
 ### Subtarefas
 
@@ -157,7 +157,7 @@
 
 ## US09 — Gerenciar perfis de acesso
 
-**Responsável:** Mateus Rodrigues França de Almeida
+**Responsável:** Henrique Barbosa Ferrão
 
 ### Subtarefas
 
@@ -177,7 +177,7 @@
 
 ## US10 — Visualizar dashboard
 
-**Responsável:** Mateus Rodrigues França de Almeida
+**Responsável:** Henrique Barbosa Ferrão
 
 ### Subtarefas
 
