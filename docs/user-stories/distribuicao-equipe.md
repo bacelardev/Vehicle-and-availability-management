@@ -10,7 +10,7 @@
 
 ---
 
-## 1. Guilherme Pereira Bacelar - Controle de Veículos e Categorias
+## 1. Mateus Oliveira de Araujo - Controle de Veículos e Categorias
 
 ### Responsabilidade principal
 
@@ -57,7 +57,7 @@ Responsável pelo módulo de cadastro, consulta e organização dos veículos da
 
 ---
 
-## 2. Henrique Barbosa Ferrão — Disponibilidade e Reservas
+## 2. Guilherme Pereira Bacelar — Disponibilidade e Reservas
 
 ### Responsabilidade principal
 
@@ -101,7 +101,7 @@ Responsável pelo controle da disponibilidade dos veículos e pelo processo de r
 
 ---
 
-## 3. Rodolfo Gonçalves — Aluguéis e Quilometragem
+## 3. Mateus Rodrigues França de Almeida — Aluguéis e Quilometragem
 
 ### Responsabilidade principal
 
@@ -150,3 +150,88 @@ quilômetros percorridos = quilometragem de devolução - quilometragem de retir
 - Estruturas de dados utilizadas;
 - Telas de retirada e devolução;
 - Parte correspondente do diagrama UML.
+
+---
+
+## 4. Rodolfo Gonçalves — Manutenção
+### Responsabilidade principal
+
+Responsável pelo controle dos veículos que estejam em manutenção ou que necessitem de manutenção.
+
+### Funcionalidades
+
+- Registro de manutenção;
+- Definição do período de manutenção;
+- Registro do motivo da manutenção;
+- Bloqueio de veículos;
+- Impedimento de reservas durante a manutenção;
+- Liberação do veículo após manutenção;
+- Identificação de veículos que necessitam de manutenção pela quilometragem;
+- Organização dos veículos que aguardam manutenção.
+
+### Entidades
+
+- Manutencao
+
+### User Stories
+- US07 — Bloqueio de veículo para manutenção
+- US08 — Identificação de necessidade de manutenção
+
+### Estruturas de Dados
+
+- Fila de manutenção;
+- Fila de prioridade de manutenção, quando aplicável.
+- 
+### Participação na documentação
+
+- Entidade Manutenção;
+- Regras de manutenção;
+- Fluxo de bloqueio e liberação;
+- Critérios de quilometragem;
+- Estruturas de dados utilizadas;
+- Tela de manutenção;
+- Parte correspondente do diagrama UML.
+
+---
+
+## 5. Henrique Barbosa Ferrão — Usuários, Dashboard e Integração
+
+### Responsabilidade principal
+
+Responsável pelos perfis de usuários, visão geral do sistema e integração dos módulos.
+
+### Funcionalidades
+- Definição dos perfis de usuário;
+- Controle de permissões;
+- Tela inicial/dashboard;
+- Resumo da situação da frota;
+- Visualização dos veículos disponíveis;
+- Visualização dos veículos reservados;
+- Visualização dos veículos alugados;
+- Visualização dos veículos em manutenção;
+- Integração entre os módulos do sistema.
+
+### Perfis
+
+- Administrador;
+- Atendente.
+
+### Entidades
+
+- Usuario
+
+### User Stories
+
+- US09 — Controle de perfis de acesso
+- US10 — Dashboard da frota
+
+### Participação na documentação
+
+- Perfis e permissões;
+- Entidade Usuário;
+- Fluxo geral de navegação;
+- Dashboard;
+- Integração entre os módulos;
+- Tela inicial;
+- Parte correspondente do diagrama UML;
+- Consolidação da documentação final.
