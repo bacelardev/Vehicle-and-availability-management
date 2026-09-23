@@ -1,140 +1,79 @@
-# Distribuição da Equipe
+# User Stories — Controle de Veículos e Disponibilidade
 
-## Integrantes
+## US01 — Cadastro de Veículos
 
-- Guilherme Pereira Bacelar
-- Henrique Barbosa Ferrão
-- Rodolfo Gonçalves
-- Mateus Oliveira de Araujo
-- Mateus
+> COMO Administrador,  
+> QUERO cadastrar veículos da frota,  
+> PARA manter os veículos disponíveis para locação registrados no sistema.
 
 ---
 
-## 1. Guilherme Pereira Bacelar — Controle de Veículos e Categorias
+## US02 — Consulta e Organização da Frota
 
-### Responsabilidade principal
-
-Responsável pelo módulo de cadastro, consulta e organização dos veículos da frota.
-
-### Funcionalidades
-
-- Cadastro de veículos;
-- Edição de veículos;
-- Remoção de veículos;
-- Consulta de veículos por placa;
-- Consulta por modelo;
-- Consulta por categoria;
-- Classificação dos veículos;
-- Registro da capacidade de passageiros;
-- Registro do valor da diária;
-- Registro da quilometragem atual;
-- Controle inicial do status do veículo;
-- Ordenação dos veículos por categoria, valor da diária ou ano.
-
-### Entidades
-
-- Veiculo
-- Categoria
-
-### User Stories
-
-- **US01 — Cadastro de veículos**
-- **US02 — Consulta e organização da frota**
-
-### Estruturas de Dados
-
-- Lista de veículos;
-- Estruturas auxiliares para busca e ordenação, quando aplicável.
-
-### Participação na documentação
-
-- Entidades relacionadas aos veículos;
-- Regras de cadastro;
-- Fluxo de cadastro e consulta;
-- Estruturas de dados utilizadas no módulo;
-- Telas de cadastro e consulta;
-- Parte correspondente do diagrama UML.
+> COMO Atendente,  
+> QUERO pesquisar e ordenar os veículos da frota,  
+> PARA localizar rapidamente veículos de acordo com diferentes critérios.
 
 ---
 
-## 2. Henrique Barbosa Ferrão — Disponibilidade e Reservas
+## US03 — Consulta de Disponibilidade
 
-### Responsabilidade principal
-
-Responsável pelo controle da disponibilidade dos veículos e pelo processo de reservas.
-
-### Funcionalidades
-
-- Consulta de veículos disponíveis;
-- Pesquisa por período;
-- Criação de reservas;
-- Cancelamento de reservas;
-- Verificação de conflitos entre reservas;
-- Impedimento de reservas em períodos sobrepostos;
-- Verificação da disponibilidade do veículo;
-- Verificação de períodos de manutenção antes da reserva.
-
-### Entidades
-
-- Reserva
-- Cliente
-
-### User Stories
-
-- **US03 — Consulta de disponibilidade**
-- **US04 — Reserva de veículo**
-
-### Estruturas de Dados
-
-- Lista de reservas;
-- Estrutura para consulta e verificação de conflitos de períodos.
-
-### Participação na documentação
-
-- Entidade Reserva;
-- Regras relacionadas à disponibilidade;
-- Regras de conflito de períodos;
-- Fluxo de reservas;
-- Estruturas de dados utilizadas;
-- Telas de disponibilidade e reserva;
-- Parte correspondente do diagrama UML.
+> COMO Atendente,  
+> QUERO consultar veículos disponíveis em determinado período,  
+> PARA oferecer ao cliente somente veículos que possam ser alugados.
 
 ---
 
-## 3. Rodolfo Gonçalves — Aluguéis e Quilometragem
+## US04 — Reserva de Veículo
 
-### Responsabilidade principal
+> COMO Atendente,  
+> QUERO reservar um veículo para determinado período,  
+> PARA garantir sua disponibilidade para o cliente.
 
-Responsável pelo controle da retirada, utilização e devolução dos veículos.
+---
 
-### Funcionalidades
+## US05 — Retirada de Veículo
 
-- Registro da retirada do veículo;
-- Registro da quilometragem inicial;
-- Registro da devolução;
-- Registro da quilometragem final;
-- Cálculo dos quilômetros percorridos;
-- Consulta do histórico de aluguéis;
-- Atualização do status do veículo após devolução.
+> COMO Atendente,  
+> QUERO registrar a retirada de um veículo,  
+> PARA iniciar o aluguel e manter o controle da utilização do veículo.
 
-### Entidades
+---
 
-- Aluguel
-- Histórico de Aluguel
+## US06 — Devolução de Veículo
 
-### User Stories
+> COMO Atendente,  
+> QUERO registrar a devolução de um veículo,  
+> PARA finalizar o aluguel e atualizar as informações da frota.
 
-- **US05 — Retirada de veículo**
-- **US06 — Devolução de veículo**
+---
 
-### Estruturas de Dados
+## US07 — Bloqueio de Veículo para Manutenção
 
-- Lista de aluguéis;
-- Estrutura para armazenamento e consulta do histórico.
+> COMO Administrador,  
+> QUERO bloquear um veículo durante um período de manutenção,  
+> PARA impedir que ele seja reservado ou alugado enquanto estiver indisponível.
 
-### Regra principal
+---
 
-A quilometragem percorrida será calculada através da fórmula:
+## US08 — Identificação de Necessidade de Manutenção
 
-```text
-quilômetros percorridos = quilometragem de devolução - quilometragem de retirada
+> COMO Administrador,  
+> QUERO identificar veículos que atingiram o limite de quilometragem para manutenção,  
+> PARA realizar a manutenção preventiva da frota.
+
+---
+
+## US09 — Controle de Perfis de Acesso
+
+> COMO Administrador,  
+> QUERO controlar os perfis de acesso dos usuários,  
+> PARA definir quais operações cada usuário pode realizar no sistema.
+
+---
+
+## US10 — Dashboard da Frota
+
+> COMO Administrador,  
+> QUERO visualizar um resumo da situação da frota,  
+> PARA acompanhar a disponibilidade e a situação dos veículos.
