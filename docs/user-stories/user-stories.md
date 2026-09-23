@@ -1,6 +1,6 @@
-# User Stories — Controle de Veículos e Disponibilidade
+# User Stories - Controle de Veículos e Disponibilidade
 
-## US01 — Cadastro de Veículos
+## US01 - Cadastro de Veículos
 
 > COMO Administrador,  
 > QUERO cadastrar veículos da frota,  
@@ -8,7 +8,7 @@
 
 ---
 
-## US02 — Consulta e Organização da Frota
+## US02 - Consulta e Organização da Frota
 
 > COMO Atendente,  
 > QUERO pesquisar e ordenar os veículos da frota,  
@@ -16,7 +16,7 @@
 
 ---
 
-## US03 — Consulta de Disponibilidade
+## US03 - Consulta de Disponibilidade
 
 > COMO Atendente,  
 > QUERO consultar veículos disponíveis em determinado período,  
@@ -24,7 +24,7 @@
 
 ---
 
-## US04 — Reserva de Veículo
+## US04 - Reserva de Veículo
 
 > COMO Atendente,  
 > QUERO reservar um veículo para determinado período,  
@@ -32,7 +32,7 @@
 
 ---
 
-## US05 — Retirada de Veículo
+## US05 - Retirada de Veículo
 
 > COMO Atendente,  
 > QUERO registrar a retirada de um veículo,  
@@ -40,7 +40,7 @@
 
 ---
 
-## US06 — Devolução de Veículo
+## US06 - Devolução de Veículo
 
 > COMO Atendente,  
 > QUERO registrar a devolução de um veículo,  
@@ -48,7 +48,7 @@
 
 ---
 
-## US07 — Bloqueio de Veículo para Manutenção
+## US07 - Bloqueio de Veículo para Manutenção
 
 > COMO Administrador,  
 > QUERO bloquear um veículo durante um período de manutenção,  
@@ -56,7 +56,7 @@
 
 ---
 
-## US08 — Identificação de Necessidade de Manutenção
+## US08 - Identificação de Necessidade de Manutenção
 
 > COMO Administrador,  
 > QUERO identificar veículos que atingiram o limite de quilometragem para manutenção,  
@@ -64,7 +64,7 @@
 
 ---
 
-## US09 — Controle de Perfis de Acesso
+## US09 - Controle de Perfis de Acesso
 
 > COMO Administrador,  
 > QUERO controlar os perfis de acesso dos usuários,  
@@ -72,7 +72,7 @@
 
 ---
 
-## US10 — Dashboard da Frota
+## US10 - Dashboard da Frota
 
 > COMO Administrador,  
 > QUERO visualizar um resumo da situação da frota,  
