@@ -2,7 +2,7 @@
 
 ## US01 - Cadastrar veículo
 
-**Responsável:** 
+**Responsável:** Mateus Oliveira de Araujo
 **Estimativa total:** 8h
 
 ### Subtarefas
@@ -24,7 +24,7 @@
 
 ## US02 - Consultar e organizar veículos
 
-**Responsável:** 
+**Responsável:** Mateus Oliveira de Araujo
 **Estimativa total:** 8h
 
 ### Subtarefas
