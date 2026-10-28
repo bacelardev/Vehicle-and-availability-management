@@ -1,0 +1,22 @@
+
+# Maven
+target/
+
+# Java
+*.class
+hs_err_pid*
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# VS Code
+.vscode/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
