@@ -2,7 +2,7 @@
 
 ## US01 - Cadastrar veículo
 
-**Responsável:** Guilherme Pereira Bacelar
+**Responsável:** 
 **Estimativa total:** 8h
 
 ### Subtarefas
@@ -24,7 +24,7 @@
 
 ## US02 - Consultar e organizar veículos
 
-**Responsável:** Guilherme Pereira Bacelar
+**Responsável:** 
 **Estimativa total:** 8h
 
 ### Subtarefas
@@ -46,7 +46,7 @@
 
 ## US03 - Consultar disponibilidade
 
-**Responsável:** Henrique Barbosa Ferrão
+**Responsável:** Guilherme Pereira Bacelar
 **Estimativa total:** 10h
 
 ### Subtarefas
@@ -66,7 +66,7 @@
 
 ## US04 - Realizar reserva
 
-**Responsável:** Henrique Barbosa Ferrão
+**Responsável:** Guilherme Pereira Bacelar
 **Estimativa total:** 12h
 
 ### Subtarefas
@@ -87,7 +87,7 @@
 
 ## US05 - Registrar retirada do veículo
 
-**Responsável:** Rodolfo Gonçalves
+**Responsável:** Mateus Rodrigues França de Almeida
 **Estimativa total:** 8h
 
 ### Subtarefas
@@ -107,7 +107,7 @@
 
 ## US06 - Registrar devolução do veículo
 
-**Responsável:** Rodolfo Gonçalves
+**Responsável:** Mateus Rodrigues França de Almeida
 **Estimativa total:** 8h
 
 ### Subtarefas
@@ -127,7 +127,7 @@
 
 ## US07 — Bloquear veículo para manutenção
 
-**Responsável:** Mateus Oliveira de Araujo
+**Responsável:** Rodolfo Gonçalves
 **Estimativa total:** 8h
 
 ### Subtarefas
@@ -147,7 +147,7 @@
 
 ## US08 - Registrar necessidade de manutenção
 
-**Responsável:** Mateus Oliveira de Araujo
+**Responsável:** Rodolfo Gonçalves
 **Estimativa total:** 12h
 
 ### Subtarefas
@@ -169,7 +169,7 @@
 
 ## US09 - Gerenciar perfis de acesso
 
-**Responsável:** Mateus Rodrigues França de Almeida
+**Responsável:** Henrique Barbosa Ferrão
 **Estimativa total:** 14h
 
 ### Subtarefas
@@ -190,7 +190,7 @@
 
 ## US10 - Visualizar dashboard
 
-**Responsável:** Mateus Rodrigues França de Almeida
+**Responsável:** Henrique Barbosa Ferrão
 **Estimativa total:** 10h
 
 ### Subtarefas
@@ -214,14 +214,14 @@
 
 | User Story | Responsável                        | Estimativa |
 | ---------- | ---------------------------------- | ---------: |
-| US01       | Guilherme Pereira Bacelar          |         8h |
-| US02       | Guilherme Pereira Bacelar          |         8h |
-| US03       | Henrique Barbosa Ferrão            |        10h |
-| US04       | Henrique Barbosa Ferrão            |        12h |
-| US05       | Rodolfo Gonçalves                  |         8h |
-| US06       | Rodolfo Gonçalves                  |         8h |
-| US07       | Mateus Oliveira de Araujo          |         8h |
-| US08       | Mateus Oliveira de Araujo          |        12h |
-| US09       | Mateus Rodrigues França de Almeida |        14h |
-| US10       | Mateus Rodrigues França de Almeida |        10h |
+| US01       | Mateus Oliveira de Araujo          |         8h |
+| US02       | Mateus Oliveira de Araujo          |         8h |
+| US03       | Guilherme Pereira Bacelar          |        10h |
+| US04       | Guilherme Pereira Bacelar          |        12h |
+| US05       | Mateus Rodrigues França de Almeida |         8h |
+| US06       | Mateus Rodrigues França de Almeida |         8h |
+| US07       | Rodolfo Gonçalves                  |         8h |
+| US08       | Rodolfo Gonçalves                  |        12h |
+| US09       | Henrique Barbosa Ferrão            |        14h |
+| US10       | Henrique Barbosa Ferrão            |        10h |
 | **Total**  | **5 integrantes**                  |    **98h** |
