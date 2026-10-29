@@ -1,5 +1,12 @@
+package br.edu.ifba.controleveiculos.model;
+
+/**
+ * Classifica os veículos de acordo com suas características
+ * (contribuição de Mateus Oliveira de Araujo — US01/US02).
+ */
 public class Categoria {
-    private int id;
+
+    private final int id;
     private String nome;
     private String descricao;
 
@@ -9,9 +16,7 @@ public class Categoria {
         this.descricao = descricao;
     }
 
-    //Basicamente métodos set e get
     public int getId() {
-        
         return id;
     }
 
@@ -33,7 +38,6 @@ public class Categoria {
 
     @Override
     public String toString() {
-        return "Categoria: " + nome +
-                " | Descrição: " + descricao;
+        return "Categoria: " + nome + " | Descrição: " + descricao;
     }
 }
